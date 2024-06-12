@@ -19,7 +19,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.hazardLava1, function (sp
     game.gameOver(false)
 })
 let mySprite: Sprite = null
-scene.setBackgroundColor(3)
+scene.setBackgroundColor(12)
 tiles.setTilemap(tilemap`level2`)
 mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
