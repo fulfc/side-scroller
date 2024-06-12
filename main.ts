@@ -22,22 +22,22 @@ let mySprite: Sprite = null
 scene.setBackgroundColor(3)
 tiles.setTilemap(tilemap`level2`)
 mySprite = sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . 3 3 3 3 3 3 3 3 . . . . 
-    . . . 3 d 3 3 3 3 3 3 c 3 . . . 
-    . . 3 c d 3 3 3 3 3 3 c c 3 . . 
-    . 3 c c d d d d d d 3 c c d 3 d 
-    . 3 c 3 a a a a a a a b c d 3 3 
-    . 3 3 a b b a b b b a a b d 3 3 
-    . 3 a b b b a b b b b a 3 3 3 3 
-    . a a 3 3 3 a 3 3 3 3 3 a 3 3 3 
-    . a a a a a a f a a a f a 3 d d 
-    . a a a a a a f a a f a a a 3 d 
-    . a a a a a a f f f a a a a a a 
-    . a f f f f a a a a f f f a a a 
-    . . f f f f f a a f f f f f a . 
-    . . . f f f . . . . f f f f . . 
-    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . b 5 b . . . 
+    . . . . . . . . . b 5 b . . . . 
+    . . . . . . b b b b b b . . . . 
+    . . . . . b b 5 5 5 5 5 b . . . 
+    . . . . b b 5 d 1 f 5 d 4 c . . 
+    . . . . b 5 5 1 f f d d 4 4 4 b 
+    . . . . b 5 5 d f b 4 4 4 4 b . 
+    . . . b d 5 5 5 5 4 4 4 4 b . . 
+    . b b d d d 5 5 5 5 5 5 5 b . . 
+    b d d d b b b 5 5 5 5 5 5 5 b . 
+    c d d b 5 5 d c 5 5 5 5 5 5 b . 
+    c b b d 5 d c d 5 5 5 5 5 5 b . 
+    c b 5 5 b c d d 5 5 5 5 5 5 b . 
+    b b c c c d d d 5 5 5 5 5 d b . 
+    . . . . c c d d d 5 5 5 b b . . 
+    . . . . . . c c c c c b b . . . 
     `, SpriteKind.Player)
 mySprite.ay = 400
 mySprite.vx = 100
